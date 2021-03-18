@@ -1,0 +1,29 @@
+C++ Lesson 1: Exercises
+
+These are exercises for you to complete and then try out in the compiler.
+You may want to look at the examples for this lesson as a starting point.
+
+
+Exercises: Functions
+
+Functions can take more than one argument.  Each argument has a type and a
+name, and additional arguments are separated by commas.  So a function that
+multiplies two numbers of type double could start like this:
+     double multiply(double x, double y)
+
+1. Implement the function multiply(). [Hint: look at square().]
+2. Implement a function printMultiply() that, similar to printSquare(), will
+   print the result of multiplying two numbers.
+3. Write a new main() program that calls printMultiply() with a few different
+   values, and run the program.
+
+
+Exercise: Input and output
+
+Similar to output with cout, you can read multiple values with cin by
+stringing together multiple items with “>>”.
+     double x, y;
+     cin >> x >> y;
+
+4. Update the main() function in Exercise 3 for printMultiply() so that the 
+   user types in the values of x and y that are passed to printMultiply().

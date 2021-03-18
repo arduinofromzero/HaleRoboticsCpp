@@ -1,0 +1,73 @@
+C++ Lesson 1: Examples
+
+Each independent example can be cut-and-pasted into a compiler.  Copy only
+the lines in between the "-----" lines.
+
+
+1. First example program
+-------------------------------------
+// Your First C++ Program
+
+#include <iostream>
+
+int main()
+{
+   std::cout << "Hello, World!";
+
+   return 0;
+} 
+--------------------------------------
+
+
+2. Function example
+--------------------------------------
+#include <iostream>
+
+double square(double x)
+{
+  return x * x; // The "*" means multiply
+}
+
+void printSquare(double x)
+{
+  std::cout << "The square of " << x << " is " << square(x) << std::endl;
+} 
+
+int main()
+{
+  printSquare(2.5);
+  printSquare(-1.2);
+  return 0;
+}
+--------------------------------------
+
+
+3. Namespace example
+--------------------------------------
+#include <iostream>
+using namespace std;
+int main()
+{
+  cout << "Hello, World!" << endl;
+  return 0;
+} 
+--------------------------------------
+
+
+4. Input and output example
+--------------------------------------
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  double x;
+  cout << "Type a number and press ENTER: ";
+  cin >> x;
+  cout << "You entered: " << x << endl;
+  return 0;
+}
+--------------------------------------
+
+
+
